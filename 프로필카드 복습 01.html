@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: lightblue;
+        }
+        section{
+            /* border: solid 1px black; */
+            width: 400px;
+            height: 600px;
+            margin: 20px auto; 
+            /* 가운데로 위치 변경하기위한 마진 값 */
+            text-align: center;
+        }
+        article{
+            /* border: 1px solid red; */
+            padding: 30px;
+        }
+        img{
+            border-radius: 50%;
+            box-shadow: 0 0 20px 5px gray;
+        }
+        h1{
+            margin-top: 10px;
+            font-size: 25px;
+            color: rgb(46, 44, 44);
+        }
+        h5{
+            font-size: 15px;
+            color: gray;
+            margin: 5px 0;
+            /* 마진 값 5px 위아래 0은 좌우 */
+        }
+        button{
+            padding: 5px 35px;
+            border-radius: 25px;
+            border: none;
+            background-color: rgb(86, 86, 160);
+            color: aliceblue;
+            font-weight: 700;
+            line-height: 30px;
+            margin-top: 20px;
+        }
+        ul{
+            list-style: none;
+        }
+        li a{
+            color: gray;
+            letter-spacing: 1px;
+            text-decoration: none;
+        }
+        footer{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+
+        }
+        footer a{
+            width: 40px;
+            height: 40px;
+            /* border: 1px solid red; */
+            border-radius: 50%;
+            margin: 0 20px;
+            box-shadow: 12px 12px 15px gray;
+        }
+        .a1{
+            background-color: aqua;
+        }
+        .a2{
+            background-color: lightblue;
+        }
+        .a3{
+            background-color: pink;
+        }
+        .a4{
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <section class="wrap">
+        <article class="profile">
+            <img src="../images/사람.png" alt="">
+           <h1>DCODELAB</h1>
+           <h5>UI/UX INTERACTIVE DEVELOPER</h5>
+           <button>VIEW MORE</button>
+        </article>
+
+        <ul class="contact">
+            <li> <a href="">Visit My Facebook page</a></li>
+            <li> <a href="mailto:dldl3093@naver.com">dldl3093@naver.com</a></li>
+            <!-- mailto : 클릭시 메일 바로 보낼수있는 링크 -->
+        </ul>
+
+        <footer>
+            <a href="#" class="a1">123</a>
+            <a href="#" class="a2">123</a>
+            <a href="#" class="a3">123</a>
+            <a href="#" class="a4">123</a>
+        </footer>
+    </section>
+</body>
+</html>
